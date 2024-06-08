@@ -16,5 +16,10 @@ namespace Lab05
         {
             InitializeComponent();
         }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
