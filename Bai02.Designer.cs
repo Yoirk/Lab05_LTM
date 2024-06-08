@@ -33,7 +33,7 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvEmail = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // label1
@@ -77,21 +77,21 @@
             this.btnLogin.Text = "LOGIN";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
-            // listView1
+            // lvEmail
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(25, 111);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(749, 306);
-            this.listView1.TabIndex = 4;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lvEmail.HideSelection = false;
+            this.lvEmail.Location = new System.Drawing.Point(25, 111);
+            this.lvEmail.Name = "lvEmail";
+            this.lvEmail.Size = new System.Drawing.Size(749, 306);
+            this.lvEmail.TabIndex = 4;
+            this.lvEmail.UseCompatibleStateImageBehavior = false;
             // 
             // Bai02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.lvEmail);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtEmail);
@@ -111,6 +111,6 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lvEmail;
     }
 }
