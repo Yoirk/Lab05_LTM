@@ -39,6 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSend = new System.Windows.Forms.Button();
+            this.btnDinhKem = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPass
@@ -130,12 +131,24 @@
             this.btnSend.TabIndex = 3;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            // 
+            // btnDinhKem
+            // 
+            this.btnDinhKem.Location = new System.Drawing.Point(632, 77);
+            this.btnDinhKem.Name = "btnDinhKem";
+            this.btnDinhKem.Size = new System.Drawing.Size(75, 23);
+            this.btnDinhKem.TabIndex = 14;
+            this.btnDinhKem.Text = "Đính kèm";
+            this.btnDinhKem.UseVisualStyleBackColor = true;
+            this.btnDinhKem.Click += new System.EventHandler(this.btnDinhKem_Click);
             // 
             // Bai03
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 437);
+            this.Controls.Add(this.btnDinhKem);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtBody);
             this.Controls.Add(this.txtSubject);
@@ -167,5 +180,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Button btnDinhKem;
     }
 }
