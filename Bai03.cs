@@ -61,8 +61,9 @@ namespace Lab05
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     attachedFilePath = openFileDialog.FileName;
+                    MessageBox.Show("Đính kèm tệp thành công");
                 }
-                MessageBox.Show("Đính kèm tệp thành công");
+                
             }
             catch (Exception ex)
             {
